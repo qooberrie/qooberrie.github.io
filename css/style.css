@@ -1,4 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Schoolbell&display=swap");
 @import url("global.css");
+@import url("mobile.css");
+@import url("header.css");
+@import url("hover.css");
+@import url("footer.css");
+
 :root {
   --pink: #fff;
+  --blue: #dab693;
 }

@@ -1,1 +1,33 @@
-@media screen and (max-width: 800px) {}
+@media screen and (max-width: 800px) {
+  html {
+    background: #212121;
+  }
+  a {
+    color: var(--pink);
+  }
+  p {
+    color: var(--blue);
+  }
+  .nsecao {
+    display: none;
+  }
+
+  .nsecao.active {
+    background-color: palevioletred;
+    margin: 0 auto;
+    width: 50vw;
+    border: 4px solid transparent;
+    padding: 10px 30px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* ? o justify content alinha o conteudo horizontal */
+    justify-content: center;
+    align-items: start;
+    word-break: break-all;
+  }
+  .nsecao.active p {
+    color: palegreen;
+  }
+}

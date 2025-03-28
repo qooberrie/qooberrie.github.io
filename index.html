@@ -3,9 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="icon" href="assets/favicon.png" />
+    <title>♡ㅤㅤ{ portfolio }</title>
   </head>
   <body>
-    <a href="https://portfolio.qooberrie.dev/countdown">countdown</a>
+    <nav>
+      <a href="#" onclick="showSection('home')">Home</a>
+      <a href="#" onclick="showSection('about')">Sobre</a>
+      <!-- em showSection o parametro passado é o id da div -->
+      <a href="#" onclick="showSection('me')">Myself</a>
+    </nav>
+
+    <div id="home" class="nsecao">
+      <p>AGORA APARECE homee</p>
+      <a href="https://portfolio.qooberrie.dev/countdown">countdown</a>
+    </div>
+    <div id="about" class="nsecao"><p>AGORA APARECE about</p></div>
+    <div id="me" class="nsecao active"><p>AGORA APARECE meow</p></div>
+
+    <script src="script.js"></script>
   </body>
 </html>
